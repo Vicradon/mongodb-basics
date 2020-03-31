@@ -14,7 +14,8 @@ npm start
 You may need to run the code written in the js files.  Do that by
 ```shell
 node js/mongo_db
-// and
+```
+```shell
 node js/interns_collection
 ```
 Running those two commands would create a database and insert a collection named interns in the database.
