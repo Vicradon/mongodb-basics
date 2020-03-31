@@ -23,10 +23,10 @@ Running those two commands would create a database and insert a collection named
 ## Screenshots
 
 ### Screenshot of the .exe files
-![mongo and mongod](/images/mongo-and-mongod.jpg)
+![mongo and mongod](/images/mongo-and-mongod-exe-files.jpg)
 
 ### Screenshot of successful db creation
-![DB created successfully](/images/db-created-successfully.jpg)
+![DB created successfully](/images/db-osinachi-created-successfully.jpg)
 
 ### Screenshot of successful collection creation
 ![Collection created successfully](/images/collection-created-successfully.jpg)
