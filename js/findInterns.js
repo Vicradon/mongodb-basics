@@ -20,7 +20,7 @@ const mongo = mongo_client.connect(url, { useNewUrlParser: true, useUnifiedTopol
     console.log(items)
   });
 
-  myMovies.find({}, { 'movie': 1, 'year': 0, 'rating': 0, '_id': 0 }).toArray((err, items) => {
+  myMovies.find({}, { projection: { "movie": 1, "_id": 0 } }).toArray((err, items) => {
     console.log("\n\nMovie titles only")
     if (err) throw err;
     console.log(items)

@@ -9,7 +9,7 @@ const mongo = mongo_client.connect(url, { useNewUrlParser: true, useUnifiedTopol
 
   const collection = db.collection('interns');
 
-  console.log("Inters collection created\n")
+  console.log("Interns collection created\n")
 
   collection.insertOne({ name: "Osinachi" }, (err, result) => {
     if (err) throw err;

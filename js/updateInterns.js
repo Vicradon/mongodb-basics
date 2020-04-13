@@ -9,7 +9,7 @@ const mongo = mongo_client.connect(url, { useNewUrlParser: true, useUnifiedTopol
   const myMovies = db.collection('myMovies');
 
   myMovies.findOneAndUpdate(
-    { movie: 'The Banker' },
+    { movie: 'The Banker', year: '2020', rating: 8 },
     {
       $set: {
         movie: "Lucy",
